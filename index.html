@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/60s-scoreboard" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/handwriting" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/971b59a879.js" crossorigin="anonymous"></script>
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="title rock">Rock.</div>
+        <div class="title paper">Paper.</div>
+        <div class="title scissors">Scissors.</div>
+    </header>
+    <div class="game-container">
+        <section class="top">
+            <div class="button-container">
+                <button id="rock"><i class="fa-solid fa-hand-fist selection"></i></button>
+                <button id="paper"><i class="fa-solid fa-hand selection"></i></button>
+                <button id="scissors"><i class="fa-solid fa-hand-peace selection"></i></button>
+            </div>
+        </section>
+        <section class="bottom">
+            <div class="score-board">
+                <header class="score-board-header">
+                    <h2>
+                        Score
+                    </h2>
+                </header>
+                <div class="score-board-wrapper">
+                    <div class="player score">
+                        <header>
+                            <h3>
+                                Player
+                            </h3>
+                        </header>
+                        <div id="player-points" class="player points">0</div>
+                    </div>
+                    <div class="computer score">
+                        <header>
+                            <h3>
+                                Computer
+                            </h3>
+                        </header>
+                        <div id="computer-points" class="computer points">0</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="announcer">Choose rock, paper or scissors</div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
